@@ -18,7 +18,7 @@ app.use(bodyParser.json())
 // })
 
 app.get('/post/:postId', (req, res) => {
-
+    //
     res.json({
         data: req.params.postId
     })
